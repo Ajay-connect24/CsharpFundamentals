@@ -18,7 +18,7 @@ namespace Lesson12_InterfaceUse
     }
 }
 /*
- 
+ 1.any class that implements ilogging can be passed
 private camel case
 class, interface pascal
 class public prop in pascal

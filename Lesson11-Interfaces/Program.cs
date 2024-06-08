@@ -46,6 +46,7 @@
 1.methods in interface are public
 2. multiple class inheritance is not possible in c# , possibe with interfaces
 3.interface can inherit another interface
-4.
+4.its a contract 
+ 
 
  */
