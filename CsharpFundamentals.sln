@@ -33,11 +33,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson11-Interface-explicit
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson11-Interface-default", "Lesson11-Interface-default\Lesson11-Interface-default.csproj", "{9383F58B-8D43-4884-8D70-BBF9916E52C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson12-InterfaceUse2", "Lesson12-InterfaceUse2\Lesson12-InterfaceUse2.csproj", "{BBE3DD28-EBF0-4703-B62A-0F3823B8F770}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson12-InterfaceUse2", "Lesson12-InterfaceUse2\Lesson12-InterfaceUse2.csproj", "{BBE3DD28-EBF0-4703-B62A-0F3823B8F770}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson13-Abstract", "Lesson13-Abstract\Lesson13-Abstract.csproj", "{F0818F16-C04A-42FD-8328-949899621ECE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson13-Abstract", "Lesson13-Abstract\Lesson13-Abstract.csproj", "{F0818F16-C04A-42FD-8328-949899621ECE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson14-DelegatingDemo", "Lesson14-DelegatingDemo\Lesson14-DelegatingDemo.csproj", "{02659877-AF82-410B-AEAA-F6A6209CB6D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson14-DelegatingDemo", "Lesson14-DelegatingDemo\Lesson14-DelegatingDemo.csproj", "{02659877-AF82-410B-AEAA-F6A6209CB6D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson15-Multicast-delegates", "Lesson15-Multicast-delegates\Lesson15-Multicast-delegates.csproj", "{19775E11-663C-4693-AA73-789C0ABBA834}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson15-Returning-delegates", "Lesson15-Returning-delegates\Lesson15-Returning-delegates.csproj", "{3B47F239-97C9-41FA-A3B0-B4E631469617}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson15-DelegateUseCaseDemo", "Lesson15-DelegateUseCaseDemo\Lesson15-DelegateUseCaseDemo.csproj", "{1DA9BE57-FF37-4236-B53D-D49A7990ACDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +123,18 @@ Global
 		{02659877-AF82-410B-AEAA-F6A6209CB6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02659877-AF82-410B-AEAA-F6A6209CB6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02659877-AF82-410B-AEAA-F6A6209CB6D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19775E11-663C-4693-AA73-789C0ABBA834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19775E11-663C-4693-AA73-789C0ABBA834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19775E11-663C-4693-AA73-789C0ABBA834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19775E11-663C-4693-AA73-789C0ABBA834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B47F239-97C9-41FA-A3B0-B4E631469617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B47F239-97C9-41FA-A3B0-B4E631469617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B47F239-97C9-41FA-A3B0-B4E631469617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B47F239-97C9-41FA-A3B0-B4E631469617}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DA9BE57-FF37-4236-B53D-D49A7990ACDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DA9BE57-FF37-4236-B53D-D49A7990ACDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DA9BE57-FF37-4236-B53D-D49A7990ACDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DA9BE57-FF37-4236-B53D-D49A7990ACDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
