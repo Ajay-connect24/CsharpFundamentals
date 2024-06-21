@@ -19,12 +19,12 @@
     {
         void ICustomer2.Print()
         {
-            Console.WriteLine("Print method");
+            Console.WriteLine("Print method 2");
         }
 
         void ICustomer.Print()
         {
-            Console.WriteLine("Print method");
+            Console.WriteLine("Print method 1");
         }
 
         internal class Program

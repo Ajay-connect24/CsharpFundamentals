@@ -30,7 +30,7 @@
 /*
  
 1.sealed keyword...cannot be inherited but obj can be made
-2.or we can use private constructor
+2.or we can use private constructor...obj cant be made for pvt ctor
 
  
  

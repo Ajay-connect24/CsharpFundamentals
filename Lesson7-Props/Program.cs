@@ -8,9 +8,11 @@
             student.SetId(1); 
             //student.Name = "thomas";
             //student.Passmark = 0;
-
+            
+           
             //Console.WriteLine($"Id = {student.GetId()} , Name ={student.Name} , PassMark ={student.Passmark}");
         }
+
 
     }
 }

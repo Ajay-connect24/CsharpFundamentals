@@ -35,15 +35,10 @@ namespace Lesson7_PropsUse
 1.use of var
 2.cant use var inside method parameter since var value should always be initiallised
 3.optional parameters like params need to be at last
-4.can be passed at random nut variable name should be used in parameter if not passed fully
-5.
+4.can be passed at random but variable name should be used in parameter if not passed fully //like in dart patameter1:  parameter 2:
+5.optional parameter should be after all req param
 
 
-doubts
-1.lowecase of id
-2.underscore
-3.what if static is passed inside
-4.last discussed
-5.
+
 
 */

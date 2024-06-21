@@ -7,7 +7,7 @@
             Customer customer = new Customer
             {
                 Id = 1,
-                Name = "Thomas"     //object initiallisation
+                Name = "Thomas"     //object initiallisation without ctor
 
             };
 

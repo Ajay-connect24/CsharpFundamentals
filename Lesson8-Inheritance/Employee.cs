@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Lesson8_Inheritance_dataHiding
+﻿namespace Lesson8_Inheritance_dataHiding
 {
     public class Employee
     {
@@ -23,8 +17,9 @@ namespace Lesson8_Inheritance_dataHiding
         public float Salary;
         //public void PrintFullname() //use new keyword for hiding
 
+
         
-        public new void PrintFullname()
+        public new  void PrintFullname()
         {
             //base.PrintFullname();  //accessing base use inside method of child always
             Console.WriteLine($"Firstname :{Firstname} Lastname : {Lastname} -Fulltime");

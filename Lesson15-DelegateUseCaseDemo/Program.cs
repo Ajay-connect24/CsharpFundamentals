@@ -17,7 +17,7 @@
 
         }
 
-        public static bool PromoteEmployee(Employee employee)
+        public static bool PromoteEmployee(Employee employee) //dont confuse with fun name
         {
             if (employee.Salary >= 10000) 
                 return true;

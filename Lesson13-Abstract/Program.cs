@@ -8,7 +8,7 @@
 
             Customer customer = new Customer();
 
-            customer.Paper(); //make protection level to public  //void Paper() { }
+            customer.Paper(); //make protection level to public  //void Paper() { } line 19
         }
     }
 
@@ -18,7 +18,7 @@
         //void Paper() { }
         public void Paper() { }
         //abstract void Print2(); //method cant be private
-        public abstract void Print();
+        public abstract void Print(); //if no body declare method as abstract
 
 
 

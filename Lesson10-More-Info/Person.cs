@@ -39,7 +39,7 @@ namespace Lesson10_More_Info
         public string Name { get; set; }
 
         // public required string Name { get; set; }
-
+        //ig its for required props
 
         public override string ToString()
         {

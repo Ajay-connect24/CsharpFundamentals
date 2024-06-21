@@ -1,13 +1,13 @@
 ﻿namespace Lesson11_Interfaces
 {
 
-    interface ICustomer 
+    interface ICustomer2 
     {
         void Print();
     
     }
 
-    interface ICustomer2 
+    interface ICustomer
     {
        // void Print2();
         void Print();
@@ -15,15 +15,15 @@
 
     }
 
-    class Customer :  ICustomer2 , ICustomer
+    class Customer :  ICustomer , ICustomer2
     {
         public void Print() {
-            Console.WriteLine("Print method");  //compiler confused of dimaond ambiguity
+            Console.WriteLine("Print method 1");  //compiler confused of dimaond ambiguity
 
         }
         public void Print2()
         {
-            Console.WriteLine("Print method");
+            Console.WriteLine("Print method 2");
 
         }
 

@@ -12,9 +12,10 @@ namespace Lesson5_Class
         string _lastname;
 
         public Customer() : this("NO FN", "NO LN")
-        { 
-        
+        {
+
         }
+        //public Customer() { }
         public Customer(string firstname,string lastname)
         {
             _firstname = firstname;

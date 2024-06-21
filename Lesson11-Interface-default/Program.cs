@@ -18,11 +18,11 @@
     {
         public void Print()    //creating default by imlementing non explicitly
         {
-            Console.WriteLine("Print method");
+            Console.WriteLine("Print method default ");
         }
         void ICustomer2.Print()
         {
-            Console.WriteLine("Print method");
+            Console.WriteLine("Print method2");
         }
 
        

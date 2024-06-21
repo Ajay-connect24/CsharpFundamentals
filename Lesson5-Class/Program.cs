@@ -18,8 +18,8 @@
 3.constructor used to initialise private field outside of class
 4.ctor + tab => constructor
 5.constructor invoked by framework and not by used
-6.default constructor ; overloaded by used defined constructor => create empty constructor to avoid error
-7.using this to chain constructor for default values in default constructor
+6.default constructor ; overloaded by user defined constructor => create empty constructor to avoid error
+7.using {this} to chain constructor for default values in default constructor
 
 
 

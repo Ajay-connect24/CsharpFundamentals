@@ -5,26 +5,26 @@
         static void Main(string[] args)
         {
             FullTimeEmployee fullemployee = new FullTimeEmployee();
-            fullemployee.Firstname = "John";
-            fullemployee.Lastname = "sam";
+            fullemployee.Firstname = "Full time";
+            fullemployee.Lastname = "full time";
 
             fullemployee.PrintFullname();
 
 
             Employee employee = new FullTimeEmployee();
-            employee.Firstname = "John";
-            employee.Lastname = "sam";
+            employee.Firstname = "emp";
+            employee.Lastname = "full time";
 
             employee.PrintFullname();
 
             // even if obj created is of child , base is shown if new keyword used for hiding
 
-            //  FullTimeEmployee baseemployee = new Employee(); THIS CONVERSION IMPLICITLY IS NOT  POSSIBLE WE CAN TYPECAST
+            //  FullTimeEmployee baseemployee = new Employee(); THIS CONVERSION IMPLICITLY IS NOT  POSSIBLE 
             // FullTimeEmployee baseemployee = ((FullTimeEmployee) new Employee()); exception thrown
 
             Console.WriteLine("type casted");
             ((Employee)fullemployee).PrintFullname();
-
+            //base class is shown
 
             Console.WriteLine("ARRAYs");
             Employee[] employee2 = new Employee[3];
